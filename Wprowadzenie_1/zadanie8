@@ -1,0 +1,2 @@
+studenci = [(980132, "Zuzia P"), (284939, "Konrad C"), (283845, "Paulina W"),(283754, "Karol P"), (283775, "Wioletta S"),(273748, "Monika L"),(283747, "Waldek O"),(985743, "Sebastian W")]
+print(studenci)

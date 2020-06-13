@@ -1,0 +1,9 @@
+
+a = 'aaaa'
+b = 'bbbb'
+data = {'a': 'aaaa', 'b': 'bbbb'}
+print('{:15.10}'.format(b))
+print('{1} {0}'.format(a, b))
+print('{:>13}'.format(b),'{:>10}'.format(a))
+print('{a} {b}'.format(**data))
+print('{d[b]} {d[a]}'.format(d=data))

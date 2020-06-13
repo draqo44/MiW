@@ -1,0 +1,8 @@
+slownik = dict({980132: "Zuzia P", 284939: "Konrad C", 283845: "Paulina W",
+                283754: "Karol P", 283775: "Wioletta S", 273748: "Monika L",
+                283747: "Waldek O", 985743: "Sebastian W",
+                (25, "zuzia@email.com"): (1995, "Ostrołęka, ul.Kolejowa 4"),
+                (26, "karol@anymail.com"): (1994, "Szczytno, ul.Ostrowska 12"),
+                (23, "wioletta@email.com"): (1997, "Olsztyn, ul.Brzydka 14"),
+                (24, "waldek@email.com"): (1996, "Kraków, ul.Piękna 23")})
+print(slownik)
