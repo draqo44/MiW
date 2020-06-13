@@ -1,0 +1,39 @@
+postacie = [
+    {
+        "moc": 50,
+        "klasa": "Mag",
+        "płeć": "Mężczyzna",
+        "rasa": "Elf",
+        "atrybuty": "Inteligencja",
+        "miejsce": 1
+
+    },
+    {
+        "moc": 20,
+        "klasa": "Wojownik",
+        "płeć": "Kobieta",
+        "rasa": "Mroczny Elf",
+        "atrybuty": "HP",
+        "miejsce": 2
+    },
+    {
+        "moc": 30,
+        "klasa": "Zabójca",
+        "płeć": "Mężczyzna",
+        "rasa": "Krasnal",
+        "atrybuty": "Zręczność",
+        "miejsce": 3
+    },
+    {
+        "moc": 40,
+        "klasa": "Strzelec",
+        "płeć": "Kobieta",
+        "rasa": "Krasnal",
+        "atrybuty": "Siła",
+        "miejsce": 4
+
+    },
+
+]
+for x in postacie:
+    print(  "klasa {0}, płeć {1}, rasa {2},  atrybuty {3} posiada  {4}  mocy." .format(x["klasa"],x["płeć"],x["rasa"],x["atrybuty"],x["moc"],x["miejsce"]))
